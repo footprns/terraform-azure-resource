@@ -8,5 +8,6 @@ variable "name" {
 }
 
 variable "tags" {
+  default = "terraform"
   description = "Environment tag for the resource group (i.e. 'Production')"
 }
